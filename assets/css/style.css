@@ -13,6 +13,12 @@ body {
   color: #444444;
 }
 
+main{
+  
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
 a {
   color: #1acc8d;
 }
@@ -133,6 +139,13 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
 }
 
+.overlaying{
+  background-color: black;
+}
+
+background-color{
+  opacity: .5;
+}
 #header .logo h1 a, #header .logo h1 a:hover {
   color: #fff;
   text-decoration: none;
