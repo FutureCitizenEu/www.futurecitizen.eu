@@ -124,11 +124,12 @@ h1, h2, h3, h4, h5, h6 {
   height: 80px;
   transition: all 0.5s;
   z-index: 997;
+  background: rgba(231, 111, 81);
   transition: all 0.5s;
 }
 
 #header.header-scrolled {
-  background: rgba(1, 4, 136, 0.9);
+  background: rgba(231, 111, 81);
   height: 60px;
 }
 
@@ -420,11 +421,21 @@ background-color{
   padding-left: 10%;
 }
 
+
 .bottom-right {
   position: absolute;
   bottom: 35%;
   right: 26px;
   padding-right: 10%;
+}
+
+@media (max-width: 1000px) {
+  .bottom-left {
+    height: 60px;
+  }
+  .bottom-right {
+    height: 2000px;;
+  }
 }
 
 
@@ -437,7 +448,7 @@ background-color{
 
 #hero:before {
   content: "";
-  background: rgba(2, 5, 161, 0.91);
+  background:white;
   position: absolute;
   bottom: 0;
   top: 0;
@@ -675,7 +686,7 @@ section {
   font-weight: 700;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #010483;
+  color: #f4a261;
 }
 
 /*--------------------------------------------------------------
@@ -688,7 +699,7 @@ section {
 .about .icon-boxes h3 {
   font-size: 28px;
   font-weight: 700;
-  color: #010483;
+  color: #f4a261;
   margin-bottom: 15px;
 }
 
@@ -730,7 +741,7 @@ section {
 }
 
 .about .icon-box .title a {
-  color: #343a40;
+  color: #f4a261;
   transition: 0.3s;
 }
 
@@ -745,7 +756,7 @@ section {
 }
 
 .about .video-box {
-  background: url("../img/about.png") center center no-repeat;
+  background: url("../img/about.jpg") center center no-repeat;
   background-size: contain;
   min-height: 300px;
 }
@@ -871,12 +882,12 @@ section {
 }
 
 .features .icon-box h3 a {
-  color: #010483;
+  color: #f4a261;
   transition: ease-in-out 0.3s;
 }
 
 .features .icon-box h3 a:hover {
-  color: #01036f;
+  color: #f4a261;
 }
 
 .features .icon-box:hover {
@@ -915,7 +926,7 @@ section {
   font-size: 36px;
   display: block;
   font-weight: 600;
-  color: #010483;
+  color: #f4a261;
 }
 
 .counts .count-box p {
@@ -935,7 +946,7 @@ section {
 .details .content h3 {
   font-weight: 600;
   font-size: 26px;
-  color: #010483;
+  color: #f4a261;
 }
 
 .details .content ul {
@@ -1119,7 +1130,7 @@ section {
   font-weight: 700;
   margin-bottom: 10px;
   font-size: 16px;
-  color: #01036f;
+  color: #f4a261;
   position: relative;
   padding-bottom: 10px;
 }
@@ -1139,7 +1150,7 @@ section {
   font-style: italic;
   display: block;
   font-size: 13px;
-  color: #01036f;
+  color: #f4a261;
 }
 
 .team .member .social {
@@ -1148,7 +1159,7 @@ section {
 
 .team .member .social a {
   transition: color 0.3s;
-  color: #01036f;
+  color: #f4a261;
 }
 
 .team .member .social a:hover {
@@ -1179,7 +1190,7 @@ section {
   padding: 20px 15px;
   font-size: 16px;
   font-weight: 600;
-  color: #777777;
+  color: #f4a261;
   background: #f8f8f8;
 }
 
@@ -1329,7 +1340,7 @@ section {
 }
 
 .faq .faq-list a.collapsed {
-  color: #343a40;
+  color: #f4a261;
 }
 
 .faq .faq-list a.collapsed:hover {
@@ -1398,14 +1409,14 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #010483;
+  color: #f4a261;
 }
 
 .contact .info p {
   padding: 0 0 0 60px;
   margin-bottom: 0;
   font-size: 14px;
-  color: #0205a1;
+  color: #f4a261;
 }
 
 .contact .info .email, .contact .info .phone {
@@ -1521,7 +1532,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #010351;
+  background: #E76F51;
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
@@ -1533,7 +1544,7 @@ section {
 
 #footer .footer-top .footer-info {
   margin-bottom: 15px;
-  background: #010246;
+  background: #E76F51;
   color: #fff;
   border-top: 4px solid #1acc8d;
   text-align: center;
