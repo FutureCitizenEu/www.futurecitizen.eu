@@ -416,7 +416,7 @@ background-color{
 
 .bottom-left {
   position: absolute;
-  bottom: 55%;
+  bottom: 45%;
   left: 26px;
   padding-left: 10%;
 }
@@ -424,7 +424,7 @@ background-color{
 
 .bottom-right {
   position: absolute;
-  bottom: 55%;
+  bottom: 45%;
   right: 26px;
   padding-right: 10%;
 }
