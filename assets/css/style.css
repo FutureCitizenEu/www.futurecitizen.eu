@@ -416,7 +416,7 @@ background-color{
 
 .bottom-left {
   position: absolute;
-  bottom: 35%;
+  bottom: 55%;
   left: 26px;
   padding-left: 10%;
 }
@@ -424,7 +424,7 @@ background-color{
 
 .bottom-right {
   position: absolute;
-  bottom: 35%;
+  bottom: 55%;
   right: 26px;
   padding-right: 10%;
 }
@@ -443,7 +443,7 @@ background-color{
   width: 100%;
   background: url("../img/hero-bg.jpg");
   position: relative;
-  padding: 120px 0 0 0;
+  padding: 90px 0 0 0;
 }
 
 #hero:before {
@@ -478,22 +478,23 @@ background-color{
 #hero .btn-get-started {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 46px;
   letter-spacing: 1px;
   display: inline-block;
   padding: 10px 30px;
   border-radius: 50px;
   transition: 0.5s;
   color: #fff;
-  background: #1acc8d;
+  background: #40916c;
 }
 
 #hero .btn-get-started:hover {
-  background: #17b57d;
+  background: #1b4332;
 }
 
+
 #hero .animated {
-  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+  animation: up-down 100s ease-in-out infinite alternate-reverse both;
 }
 
 
