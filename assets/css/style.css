@@ -19,6 +19,26 @@ main{
   padding-right: 5%;
 }
 
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+article {
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+}
+
 a {
   color: #1acc8d;
 }
@@ -431,10 +451,10 @@ background-color{
 
 @media (max-width: 1000px) {
   .bottom-left {
-    height: 60px;
-  }
+    height: 0;
+    size:50%}
   .bottom-right {
-    height: 2000px;;
+    visibility: hidden;
   }
 }
 
@@ -478,7 +498,7 @@ background-color{
 #hero .btn-get-started {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
-  font-size: 46px;
+  font-size: 36px;
   letter-spacing: 1px;
   display: inline-block;
   padding: 10px 30px;
