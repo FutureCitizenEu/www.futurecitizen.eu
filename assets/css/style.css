@@ -451,10 +451,13 @@ background-color{
 
 @media (max-width: 1000px) {
   .bottom-left {
-    height: 0;
-    size:50%}
+    visibility: hidden;
+  }
   .bottom-right {
     visibility: hidden;
+  }
+  .hero-img{
+    position:relative;
   }
 }
 
