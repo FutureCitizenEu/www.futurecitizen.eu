@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: futurecitizen.eu
+Token: fccdf059615f7187b303c57aab71f5130ad0261137759144f505109bf81cbf57
